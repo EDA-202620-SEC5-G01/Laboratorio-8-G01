@@ -41,7 +41,8 @@ def next_prime(n):
     if (n <= 1):
         next_p = 2
         found = True
-    next_p = int(n)
+    else: 
+        next_p = int(n)
     # Loop continuously until is_prime returns
     # True for a number greater than n
     while(not found):
